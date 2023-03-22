@@ -13,7 +13,7 @@ const Header = () => {
                 </div>
 
                 <div className="link">
-                    <a href="#portfolio" className="portfolio-link">PORTFOLIO</a>
+                    <a href="https://jayalls.github.io/portfolio/" className="portfolio-link">PORTFOLIO</a>
                     <a href="#services">SERVICES</a>
                     <a href="#about">À PROPOS</a>
                     <a href="#contact">CONTACT</a>
