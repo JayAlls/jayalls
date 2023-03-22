@@ -1,0 +1,31 @@
+@import "../style/config.scss";
+
+// effet de saut ou de vacillement
+
+@keyframes jumping {
+    0% {
+        transform: translateY(0);
+      }
+      
+    25% {
+          transform: translateY(-5px);
+    }
+
+    75% {
+          transform: translateY(3px);
+    }
+
+    100% {
+        transform: translateY(0);
+      }
+}
+
+// animation de tapage 
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,56 @@
+@import "../../style/mixin.scss";
+@import "../../style/config.scss";
+
+#about {
+    width: 100%;
+    height: auto;
+    background: $gradient-2;
+
+    .about-line {
+        display: block;
+        width: 100%;
+        height: 10px;
+        background-color: rgba($color: $primary-1, $alpha: 0.3);
+        margin: 50px auto;
+    }
+
+    .title-container {
+        position: relative;
+        top: 100px;
+    }
+
+    .text-container {
+        max-width: 100%;
+        padding: 50px;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        color: $primary-1;
+
+        strong {
+            color: $secondary;
+        }
+
+        h3 {
+            font-size: 4vw;
+            font-family: $Montserrat;
+        }
+        
+        p {
+            font-size: 2vw;
+            font-family: $Oswald;
+            max-width: 90%;
+        }
+
+        .fonctionnement {
+            text-align: right;
+            display: flex;
+            justify-content: right;
+            align-items: flex-end;
+            flex-direction: column;
+        }
+    }
+
+}
