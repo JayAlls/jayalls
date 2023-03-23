@@ -36,12 +36,23 @@
         h3 {
             font-size: 4vw;
             font-family: $Montserrat;
+
+            @include mobile-only {
+                font-size: 5vw;
+            }
         }
         
         p {
             font-size: 2vw;
             font-family: $Oswald;
             max-width: 90%;
+
+            @include tablet-only {
+                font-size: 3vw;
+            }
+            @include mobile-only {
+                font-size: 4vw;
+            }
         }
 
         .fonctionnement {
