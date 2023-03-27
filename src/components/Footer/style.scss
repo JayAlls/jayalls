@@ -20,6 +20,12 @@ footer {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
+        img {
+            width: 50%;
+            height: auto;
+        }
+
         p {
             margin: 0;
             font-size: 3vw;
@@ -57,6 +63,10 @@ footer {
             text-decoration: none;
             color: #000;
             transition: all 0.3s ease-in-out;
+            img {
+                width: 100%;
+                height: auto;
+            }
 
             span {
                 border: 3px solid #000;
